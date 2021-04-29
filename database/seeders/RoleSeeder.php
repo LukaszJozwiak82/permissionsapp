@@ -19,10 +19,12 @@ class RoleSeeder extends Seeder
 
         // this can be done as separate statements
         $role = Role::create(['name' => 'owner']);
-        
+
         $role = Role::create(['name' => 'iod']);
 
         $role = Role::create(['name' => 'admin']);
-        
+
+        $role = Role::create(['name' => 'user']);
+
     }
 }
